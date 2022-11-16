@@ -1,0 +1,13 @@
+jaffle_shop:
+  outputs:
+    dev:
+      dataset: dev
+      method: oauth
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      priority: interactive
+      project: main-element-367404
+      threads: 1
+      type: bigquery
+  target: dev
